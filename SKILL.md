@@ -61,7 +61,7 @@ By default, complete this closed loop before reading the next problem's details.
 7. Before official evaluation, confirm the evaluation control is present and enabled. If a prior run left a cooldown/countdown, wait for that control to become enabled instead of treating the missing/disabled button as a page failure. Submit once.
 8. Wait for a terminal result. Preview output, “服务启动完成”, disabled controls, or a countdown is not a pass. Require an explicit “通关/已通过/已完成”, full tests, or awarded score. Open the test-results tab only when the terminal result is failure or is otherwise unclear.
 
-After an explicit pass, record the result and click the platform's “完成” control immediately when it appears (for example, after “恭喜您通过本关” or “通关”). If the control disappears or the success dialog auto-closes, refresh or revisit the list and require an authoritative passed signal before closing the task. Then close run-created task/detail tabs and move to the next pending problem. Do not linger on the congratulations page or reopen already passed work except for this delayed status verification.
+After an explicit official pass, record the result and end the problem immediately. Do not click the platform's “完成” control after “恭喜您通过本关/通关”; the successful evaluation is sufficient. Close run-created task/detail tabs and move to the next pending problem without waiting on the success screen or refreshing the list solely to reconfirm completion.
 
 ## Diagnose failures precisely
 
