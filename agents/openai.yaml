@@ -1,0 +1,6 @@
+interface:
+  display_name: "头歌编程作业自动完成"
+  short_description: "扫描并跳过已通过题目，逐题编写、评测与三次限次纠错处理"
+  default_prompt: "使用 $educoder-homework-auto 完成这个头歌作业链接中尚未通过的编程题。"
+policy:
+  allow_implicit_invocation: true
